@@ -1,0 +1,16 @@
+Orondar,Oronjorath,Felnvor,Oronvor,Felndar,Kydar,Kyjorath,Kyvor,Felnjorath
+
+a > t,r
+j > o
+t > h
+l > n
+K > y
+n > v,j,d
+O > r
+d > a
+o > r,n
+F > e
+r > a,b
+v > o
+e > b
+y > j,b

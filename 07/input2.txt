@@ -1,0 +1,25 @@
+Pylarxar,Balthroth,Myndtyr,Xyrtyr,Quarnverax,Xyrdaros,Quarnxar,Quarnilor,Quarndax,Pylarquin,Myndxar,Quarntyr,Mynddaros,Xyrxar,Pylarthel,Zyrixilor,Quarnox,Mynddax,Xyrilor,Myndthel,Pylarroth,Myndilor,Morndax,Zyrixdaros,Oryilor,Xyrroth,Falox,Balthdaros,Mornroth,Balthilor,Myndquin,Quordaros,Quarnroth,Faldax,Xyrdax,Oryroth,Oryverax,Oryox,Balthdax,Myndox,Balthquin,Quorverax,Mornxar,Pylarverax,Falxar,Falilor,Orythel,Pylarilor,Quarnthel,Quorthel,Pylardaros,Quarndaros,Orytyr,Mornverax,Mornox,Balthox,Quorquin,Pylarox,Oryxar,Myndverax,Xyrox,Zyrixverax,Myndroth,Falquin,Morndaros,Quortyr,Quorilor,Xyrthel,Balthtyr,Mornilor,Xyrverax,Morntyr,Xyrquin,Pylardax,Quorxar,Quordax,Orydax,Zyrixthel,Zyrixtyr,Balthxar,Quorroth,Falthel,Mornquin,Falroth,Zyrixxar,Oryquin,Balththel,Quorox,Mornthel,Falverax,Zyrixdax,Faltyr,Pylartyr,Balthverax,Zyrixquin,Zyrixroth,Zyrixox,Quarnquin,Faldaros,Orydaros
+
+Q > u
+u > a,i,v
+B > a
+d > a,t,d,x,i,q,v,o,r
+o > r,x,s,t,v
+v > e
+Z > y
+a > r,x,v
+r > n,t,d,x,i,q,v,a,o,r
+q > u
+M > y,o
+h > e,t,d,x,i,q,v,o,r
+l > o,t,d,x,i,q,v,r,a
+n > x,d,t,i,q,v,o,r
+x > a,t,d,x,i,q,v,o,r
+F > a
+i > l,n,x
+P > y
+X > y
+e > l,r
+y > v,r,t,d,x,i,q,o
+O > r
+t > y,h
