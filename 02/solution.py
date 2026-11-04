@@ -3,18 +3,33 @@ dataset = [tuple(line.strip() for line in file.readlines()) for file in files]
 [f.close() for f in files]
 
 
-def part1(data=dataset[0]):
-    print()
+def solve(data):
+    total = 0
+    for line in data:
+        softer_neighbors = dict()
+        edges = line.split()
+        items = set()
+        for edge in edges:
+            if ">" in edge:
+                harder, softer = edge.split(">")
+            else:
+                softer, harder = edge.split("<")
+            items |= {softer, harder}
+            softer_neighbors[harder] = softer_neighbors.get(harder, []) + [softer]
+
+        Q = list(softer_neighbors.keys())
+        while Q:
+            order = Q.pop()
+            if len(order) == len(items):
+                total += int(order)
+                Q.clear()
+                continue
+            for sn in softer_neighbors.get(order[-1], []):
+                if sn in order:
+                    continue
+                Q.append(order + sn)
+    print(total)
 
 
-def part2(data=dataset[1]):
-    print()
-
-
-def part3(data=dataset[2]):
-    print()
-
-
-part1()
-part2()
-part3()
+for data in dataset:
+    solve(data)
